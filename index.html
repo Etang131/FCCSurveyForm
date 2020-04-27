@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Travel Survey</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="title">Where have you visted?</h1>
+      <p id="description">
+        Thank you for helping us find where people are exploring
+      </p>
+      <form action="" id="survey-form">
+        <label for="name" id="name-label">Name</label>
+        <input type="text" id="name" placeholder="Name" required />
+        <label for="email" id="email-label">Email</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter your Email"
+          required
+        />
+        <label for="age" id="number-label">Age (optional)</label>
+        <input type="number" id="number" placeholder="Age" min="1" max="125" />
+        <label for="dropdown"
+          >How many times have you traveld out of your country?</label
+        >
+        <select id="dropdown" name="timesTraveled" required>
+          <option value="zero">0 Times</option>
+          <option value="one">1 Time</option>
+          <option value="twoThroughFive">2 -5 Times</option>
+          <option value="greaterThanFive">6 or more Times</option>
+        </select>
+        <p>Do you plan on traveling this year?</p>
+        <label>
+          <input
+            name="travel"
+            value="yes"
+            type="radio"
+            checked
+            class="checkbox"
+          />
+          Yes
+        </label>
+        <label>
+          <input name="travel" value="no" type="radio" class="checkbox" />
+          No
+        </label>
+        <label>
+          <input name="travel" value="maybe" type="radio" class="checkbox" />
+          Maybe
+        </label>
+        <div class="favoriteThings">
+          <p>
+            What is your favorite three things you like to see in other
+            countries?
+          </p>
+          <label for="food">
+            <input
+              type="checkbox"
+              id="food"
+              name="food"
+              value="food"
+              class="checkbox"
+            />
+            Food</label
+          >
+
+          <label for="art">
+            <input
+              type="checkbox"
+              id="art"
+              name="art"
+              value="art"
+              class="checkbox"
+            />
+            Art Museums</label
+          >
+
+          <label for="architecture">
+            <input
+              type="checkbox"
+              id="architecture"
+              name="architecture"
+              value="architecture"
+              class="checkbox"
+            />
+            Architecture</label
+          >
+
+          <label for="night">
+            <input
+              type="checkbox"
+              id="night"
+              name="night"
+              value="night"
+              class="checkbox"
+            />
+            Night Life</label
+          >
+
+          <label for="scenary">
+            <input
+              type="checkbox"
+              id="scenary"
+              name="scenary"
+              value="scenary"
+              class="checkbox"
+            />
+            Scenary</label
+          >
+
+          <label for="people">
+            <input
+              type="checkbox"
+              id="people"
+              name="people"
+              value="people"
+              class="checkbox"
+            />
+            People</label
+          >
+
+          <label for="history">
+            <input
+              type="checkbox"
+              id="history"
+              name="history"
+              value="history"
+              class="checkbox"
+            />
+            History</label
+          >
+
+          <label for="attractions">
+            <input
+              type="checkbox"
+              id="history"
+              name="history"
+              value="history"
+              class="checkbox"
+            />
+            Atractions</label
+          >
+        </div>
+        <label for="textarea">Where do you want to travel to next?</label>
+        <textarea id="textarea"></textarea>
+        <button id="submit">Submit</button>
+      </form>
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
