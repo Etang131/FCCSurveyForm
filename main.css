@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(https://wallpapercave.com/wp/wp3293978.jpg);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 8vh;
+}
+
+#title {
+  color: black;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1vh;
+}
+
+#description {
+  color: black;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 2.5vh;
+}
+
+form {
+  background-color: rgba(7, 167, 92, 0.726);
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 15px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  width: 40%;
+}
+
+form label {
+  justify-self: start;
+  margin-top: 20px;
+}
+
+input,
+select {
+  padding: 8px 5px;
+  font-size: 1rem;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+input:placeholder-shown {
+  color: black;
+}
+
+.checkbox {
+  display: inline-block;
+  margin-right: 2px;
+  min-height: 1.125rem;
+  min-width: 1.125rem;
+  -moz-transform: scale(1.125);
+}
+
+.favoriteThings {
+  display: flex;
+  flex-direction: column;
+}
+
+textarea {
+  color: black;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  height: 200px;
+}
+
+p {
+  margin-top: 2vh;
+}
+
+button {
+  background-color: rgb(63, 130, 197);
+  border-radius: 15px;
+  border: black solid 1px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-top: 1.5vh;
+  padding: 8px 0;
+  color: black;
+}
